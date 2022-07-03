@@ -1,0 +1,113 @@
+.header-bg {
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    background-image: url(../../img/fundo/rustic-brick-wall-background.jpg);
+    box-shadow: inset 0px -90px 40px rgb(0, 0, 0)
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content-lista {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.logo {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+#mala  {
+    color: white;
+    padding-right: 0.3rem;
+}
+.header-content-lista li {
+    background-color: rgba(26, 26, 26, 0.226);
+    padding: 0.1rem;
+    border-radius: 4px;
+    position: relative;
+}
+.header-content-lista li::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    margin-top: 4px;
+    transition: 0.7s;
+    position: absolute;
+}
+.header-content-lista li:hover:after {
+    width: 100%;
+}
+.second-header {
+    margin-top: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+.second-header {
+    display: grid;
+    grid: 2fr 1fr;
+}
+.second-header h1 {
+    padding-left: 2rem;
+    font-weight: 600;
+    font-size: 3.5rem;
+    width: 60%;
+    text-transform: uppercase;
+}
+.second-header p {
+    padding-left: 2rem;
+    margin-top: 1rem;
+    max-width: 40%;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+#testo {
+    font-size: 0.7rem;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+.btns {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    padding: 20px;
+}
+.btn-item {
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid gray;
+    padding: 1rem;
+    width: max-content;
+    height: 25px;
+    align-items: center;
+    position: relative;
+
+}
+.btns a {
+    position: relative;
+}
+.btn-item::after {
+    content: " ";
+    left: 0.1rem;
+    top: 0.1rem;
+    height: 53px;
+    border-radius: 4px;
+    width: 0%;
+    background-color: rgba(128, 128, 128, 0.062);
+    position: absolute;
+    transition: 0.7s;
+}
+
+.btn-item:hover:after {
+    width: 100%;
+}

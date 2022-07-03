@@ -1,0 +1,47 @@
+.main-bg {
+    background: linear-gradient(60deg, rgba(0, 0, 0, 0.753), rgb(0, 0, 0)), url(../../img/fundo/fundomain.jpg);
+    color: white;
+    box-shadow: inset 0px 90px 40px rgb(0, 0, 0)
+}
+.main-content {
+    padding-top: 2rem;
+    height: 100em;
+}
+.lista-solucao img {
+    max-width: 100%;
+}
+.list-soluca-item ul {
+    display: flex;
+    list-style: none;
+    background-color: rgb(27, 25, 25);
+    border-radius: 4px;
+}
+.itemmm {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+.itemmm h3 {
+    text-align: left;
+    margin-left: 2.2rem;
+}
+.itemmm::before {
+    content: "\2714";
+}
+.aside {
+    margin-top: 2rem;
+}
+.depoimentos ul {
+    display: flex;
+    overflow-x: scroll;
+    list-style: none;
+    margin: 0px;
+}
+.depoimentos li {
+    gap: 2rem;
+    padding: 2rem;
+}
+.depoimentos li img {
+    height: 500px;
+    
+}
